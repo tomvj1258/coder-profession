@@ -9,7 +9,7 @@ import ButtonScn from "@/components/MyUIComponents/ButtonScn";
 
 const Navbar = () => {
   return (
-    <section className="container mx-auto">
+    <section className="container z-10 mx-auto backdrop-blur-lg">
       <div className="flex items-center justify-between py-3">
         <div className="">
           <Image

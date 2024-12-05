@@ -1,3 +1,4 @@
+import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { poppins } from "@/utils/font";
@@ -12,11 +13,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={cn(
-          "no-scrollbar min-h-screen bg-background font-poppins antialiased",
+          "min-h-screen bg-background font-poppins antialiased",
           poppins,
         )}
       >
         {children}
+        <Toaster />
       </body>
       {/* <body className={poppins}>{children}</body> */}
     </html>
