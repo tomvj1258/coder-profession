@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] pb-20 pt-8 md:pb-10 md:pt-5">
+    <section className="z-0 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] pb-20 pt-8 md:pb-10 md:pt-5">
       <div className="container">
         <div className="items-center md:flex">
           <div className="md:w-[478px]">
@@ -19,7 +19,7 @@ const HeroSection = () => {
             <h1 className="head-gradient mt-6 text-5xl font-bold tracking-tighter md:text-7xl">
               Pathway to Web Development
             </h1>
-            <p className="text-textBlue mt-6 text-xl tracking-tight">
+            <p className="mt-6 text-xl tracking-tight text-textBlue">
               Celebrate the joy of accomplishment with an app designed to track
               your progress, motivate your efforts, and celebrate your
               successes.
@@ -39,7 +39,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="relative mt-20 md:mt-0 md:h-[648px] md:flex-1">
+          <div className="relative z-0 mt-20 md:mt-0 md:h-[648px] md:flex-1">
             <Image
               src={CogImage}
               alt="cog image"
